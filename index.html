@@ -1,4 +1,11 @@
---- layout: page description: "希望将在绝境中诞生！" --- {% for post in paginator.posts %}
+--- 
+    layout: page 
+    description: "希望将在绝境中诞生！" 
+--- 
+
+
+
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
