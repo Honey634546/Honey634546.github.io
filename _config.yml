@@ -1,7 +1,7 @@
 # Site settings
 title: Joe
 SEOTitle: Honey | Joe Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-universe.jpg
 email: honey634546@gmail.com
 description: "希望将在绝境中诞生！"
 keyword: ""
@@ -48,7 +48,7 @@ gems: [jekyll-paginate]
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
+markdown: redcarpet
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
