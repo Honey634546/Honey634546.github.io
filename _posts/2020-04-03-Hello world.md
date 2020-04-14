@@ -11,3 +11,5 @@ tags:
 ---
 
 Hello World!
+
+![ans](../img/ans.jpg)
